@@ -11,14 +11,6 @@ repositories {
 	mavenCentral()
 }
 
-jar {
-	manifest {
-		attributes 'Main-Class': 'alfa.house.search.SearchApplication'
-	}
-	baseName = "search.jar"
-	enabled=true
-}
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
